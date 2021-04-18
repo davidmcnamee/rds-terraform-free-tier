@@ -18,7 +18,8 @@ aws_secret_access_key=<The40CharacterKeyTheyGiveYou>
 (note: don't actually include the angle brackets)
 
 5. Install terraform using `brew install terraform` (Mac) or `choco install terraform` (Windows)
-6. Run `terraform apply` this will prompt you for a db password (this takes ~10mins). This will return the db address when it's finished.
+6. Clone this repo and cd into it: `git clone https://github.com/davidmcnamee/rds-terraform-free-tier.git && cd rds-terraform-free-tier`
+7. Run `terraform apply` this will prompt you for a db password (this takes ~10mins). This will return the db address when it's finished.
 
 
 ### Accessing
